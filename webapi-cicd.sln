@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientsService", "ClientsService\ClientsService.csproj", "{49364C52-C8C8-4AFF-9303-76D1733DC1FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{AF1F6B70-3CF1-4141-B229-D1894E5FE4E0}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\build.sh = scripts\build.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".circleci", ".circleci", "{E8A3761F-7E2A-44C2-A51B-C06BA6892369}"
+	ProjectSection(SolutionItems) = preProject
+		.circleci\config.yml = .circleci\config.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryService", "InventoryService\InventoryService.csproj", "{E48E9E7A-401D-4200-B6E0-757883745669}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{584A3719-8813-4D13-ADB3-9125EF0D7F28}"
+	ProjectSection(SolutionItems) = preProject
+		manifest-clients-production.yml = manifest-clients-production.yml
+		manifest-clients-staging.yml = manifest-clients-staging.yml
+		manifest-inventory-production.yml = manifest-inventory-production.yml
+		manifest-inventory-staging.yml = manifest-inventory-staging.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientsServiceTest", "ClientsServiceTest\ClientsServiceTest.csproj", "{E96C153B-430D-4637-89A1-DA7288268108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryServiceTest", "InventoryServiceTest\InventoryServiceTest.csproj", "{1E6DEE8C-7308-44C2-B13E-B01CA20E85B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49364C52-C8C8-4AFF-9303-76D1733DC1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49364C52-C8C8-4AFF-9303-76D1733DC1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49364C52-C8C8-4AFF-9303-76D1733DC1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49364C52-C8C8-4AFF-9303-76D1733DC1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48E9E7A-401D-4200-B6E0-757883745669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48E9E7A-401D-4200-B6E0-757883745669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48E9E7A-401D-4200-B6E0-757883745669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48E9E7A-401D-4200-B6E0-757883745669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96C153B-430D-4637-89A1-DA7288268108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96C153B-430D-4637-89A1-DA7288268108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96C153B-430D-4637-89A1-DA7288268108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96C153B-430D-4637-89A1-DA7288268108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6DEE8C-7308-44C2-B13E-B01CA20E85B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6DEE8C-7308-44C2-B13E-B01CA20E85B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6DEE8C-7308-44C2-B13E-B01CA20E85B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6DEE8C-7308-44C2-B13E-B01CA20E85B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AE29362-054D-4EB0-AD8C-35304EE542E3}
+	EndGlobalSection
+EndGlobal

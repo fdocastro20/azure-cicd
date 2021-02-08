@@ -1,0 +1,17 @@
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\bin\Release\netcoreapp3.1\ClientsService.exe
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\bin\Release\netcoreapp3.1\ClientsService.deps.json
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\bin\Release\netcoreapp3.1\ClientsService.runtimeconfig.json
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\bin\Release\netcoreapp3.1\ClientsService.runtimeconfig.dev.json
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\bin\Release\netcoreapp3.1\ClientsService.dll
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\bin\Release\netcoreapp3.1\ClientsService.pdb
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\obj\Release\netcoreapp3.1\staticwebassets\ClientsService.StaticWebAssets.Manifest.cache
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\obj\Release\netcoreapp3.1\staticwebassets\ClientsService.StaticWebAssets.xml
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\obj\Release\netcoreapp3.1\ClientsService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\obj\Release\netcoreapp3.1\ClientsService.AssemblyInfoInputs.cache
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\obj\Release\netcoreapp3.1\ClientsService.AssemblyInfo.cs
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\obj\Release\netcoreapp3.1\ClientsService.RazorTargetAssemblyInfo.cache
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\obj\Release\netcoreapp3.1\ClientsService.dll
+C:\Users\fernando.castro\workspace\academy\webapi-cicd\ClientsService\obj\Release\netcoreapp3.1\ClientsService.pdb
