@@ -6604,11 +6604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fernando.castro\\workspace\\academy\\webapi-cicd\\InventoryServiceTest\\InventoryServiceTest.csproj",
+      "projectUniqueName": "C:\\Users\\fernando.castro\\workspace\\academy\\azure\\webapi-cicd\\InventoryServiceTest\\InventoryServiceTest.csproj",
       "projectName": "InventoryServiceTest",
-      "projectPath": "C:\\Users\\fernando.castro\\workspace\\academy\\webapi-cicd\\InventoryServiceTest\\InventoryServiceTest.csproj",
+      "projectPath": "C:\\Users\\fernando.castro\\workspace\\academy\\azure\\webapi-cicd\\InventoryServiceTest\\InventoryServiceTest.csproj",
       "packagesPath": "C:\\Users\\fernando.castro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fernando.castro\\workspace\\academy\\webapi-cicd\\InventoryServiceTest\\obj\\",
+      "outputPath": "C:\\Users\\fernando.castro\\workspace\\academy\\azure\\webapi-cicd\\InventoryServiceTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fernando.castro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6624,8 +6624,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\fernando.castro\\workspace\\academy\\webapi-cicd\\InventoryService\\InventoryService.csproj": {
-              "projectPath": "C:\\Users\\fernando.castro\\workspace\\academy\\webapi-cicd\\InventoryService\\InventoryService.csproj"
+            "C:\\Users\\fernando.castro\\workspace\\academy\\azure\\webapi-cicd\\InventoryService\\InventoryService.csproj": {
+              "projectPath": "C:\\Users\\fernando.castro\\workspace\\academy\\azure\\webapi-cicd\\InventoryService\\InventoryService.csproj"
             }
           }
         }
@@ -6671,7 +6671,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.115\\RuntimeIdentifierGraph.json"
       }
     }
   }

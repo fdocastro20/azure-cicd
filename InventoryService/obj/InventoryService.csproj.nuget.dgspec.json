@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fernando.castro\\workspace\\academy\\webapi-cicd\\InventoryService\\InventoryService.csproj": {}
+    "C:\\Users\\fernando.castro\\workspace\\academy\\azure\\webapi-cicd\\InventoryService\\InventoryService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fernando.castro\\workspace\\academy\\webapi-cicd\\InventoryService\\InventoryService.csproj": {
+    "C:\\Users\\fernando.castro\\workspace\\academy\\azure\\webapi-cicd\\InventoryService\\InventoryService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fernando.castro\\workspace\\academy\\webapi-cicd\\InventoryService\\InventoryService.csproj",
+        "projectUniqueName": "C:\\Users\\fernando.castro\\workspace\\academy\\azure\\webapi-cicd\\InventoryService\\InventoryService.csproj",
         "projectName": "InventoryService",
-        "projectPath": "C:\\Users\\fernando.castro\\workspace\\academy\\webapi-cicd\\InventoryService\\InventoryService.csproj",
+        "projectPath": "C:\\Users\\fernando.castro\\workspace\\academy\\azure\\webapi-cicd\\InventoryService\\InventoryService.csproj",
         "packagesPath": "C:\\Users\\fernando.castro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fernando.castro\\workspace\\academy\\webapi-cicd\\InventoryService\\obj\\",
+        "outputPath": "C:\\Users\\fernando.castro\\workspace\\academy\\azure\\webapi-cicd\\InventoryService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fernando.castro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.115\\RuntimeIdentifierGraph.json"
         }
       }
     }

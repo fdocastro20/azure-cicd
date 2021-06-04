@@ -21,6 +21,7 @@ namespace ClientsService.Controllers
             clientList.Add("2", "Samantha Rojas");
             clientList.Add("3", "Verónica Sanchez");
             clientList.Add("4", "Pablo Solano");
+            clientList.Add("5", "Bartolito");
         }
 
         // GET api/clients
