@@ -35,8 +35,8 @@ stages:
         ArtifactName: 'drop'
         publishLocation: 'Container'
 
-- stage: 'Deploy'
-  displayName: 'Deploy the web application'
+- stage: 'Deploy Clients'
+  displayName: 'Deploy the client microservices'
   dependsOn: Build
   jobs:
   - deployment: Deploy
@@ -55,5 +55,28 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'Resource Manager - Academy'
-              appName: '$(WebAppName)'
-              package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
+              appName: '$(WebAppName-Clients)'
+              package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/ClientsService.zip'
+
+- stage: 'Deploy Inventory'
+  displayName: 'Deploy the inventory microservices'
+  dependsOn: Build
+  jobs:
+  - deployment: Deploy
+    pool:
+      vmImage: ubuntu-latest
+    environment: dev
+    variables:
+    - group: Release
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - download: current
+            artifact: drop
+          - task: AzureWebApp@1
+            displayName: 'Azure App Service Deploy: website'
+            inputs:
+              azureSubscription: 'Resource Manager - Academy'
+              appName: '$(WebAppName-Inventory)'
+              package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/InventoryService.zip'
