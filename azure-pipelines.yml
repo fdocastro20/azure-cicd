@@ -59,7 +59,7 @@ stages:
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/ClientsService.zip'
 
 - stage: 'Deploy_Inventory'
-  displayName: 'Deploy the inventory microservices'
+  displayName: 'Deploy the inventory microservicess'
   dependsOn: Build
   jobs:
   - deployment: Deploy
