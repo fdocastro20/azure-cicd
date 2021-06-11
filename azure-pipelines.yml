@@ -35,7 +35,7 @@ stages:
         ArtifactName: 'drop'
         publishLocation: 'Container'
 
-- stage: 'Deploy Clients'
+- stage: 'Deploy_Clients'
   displayName: 'Deploy the client microservices'
   dependsOn: Build
   jobs:
@@ -58,7 +58,7 @@ stages:
               appName: '$(WebAppName-Clients)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/ClientsService.zip'
 
-- stage: 'Deploy Inventory'
+- stage: 'Deploy_Inventory'
   displayName: 'Deploy the inventory microservices'
   dependsOn: Build
   jobs:
